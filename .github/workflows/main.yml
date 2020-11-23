@@ -32,8 +32,7 @@ jobs:
           
       - name: npm bump
         uses: bcomnes/npm-bump@v2.0.2
-        with:
-          cmd: install # npm install/ yarn install
+        
       
       - name: Creating Build
         run: npm run build
